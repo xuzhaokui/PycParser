@@ -1,0 +1,288 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	temp/a.py	/^def A():$/;"	f
+AddFun	include/object.h	/^typedef PyObject* (*AddFun)(PyObject* left, PyObject* right);$/;"	t
+BINARY_ADD	include/opCode.h	32;"	d
+BINARY_AND	include/opCode.h	59;"	d
+BINARY_DIVIDE	include/opCode.h	30;"	d
+BINARY_FLOOR_DIVIDE	include/opCode.h	35;"	d
+BINARY_LSHIFT	include/opCode.h	57;"	d
+BINARY_MODULO	include/opCode.h	31;"	d
+BINARY_MULTIPLY	include/opCode.h	29;"	d
+BINARY_OR	include/opCode.h	61;"	d
+BINARY_POWER	include/opCode.h	27;"	d
+BINARY_RSHIFT	include/opCode.h	58;"	d
+BINARY_SUBSCR	include/opCode.h	34;"	d
+BINARY_SUBTRACT	include/opCode.h	33;"	d
+BINARY_TRUE_DIVIDE	include/opCode.h	36;"	d
+BINARY_XOR	include/opCode.h	60;"	d
+BREAK_LOOP	include/opCode.h	75;"	d
+BUILD_CLASS	include/opCode.h	84;"	d
+BUILD_LIST	include/opCode.h	101;"	d
+BUILD_MAP	include/opCode.h	102;"	d
+BUILD_PATH	Makefile	/^BUILD_PATH=.\/build$/;"	m
+BUILD_SLICE	include/opCode.h	128;"	d
+BUILD_TUPLE	include/opCode.h	100;"	d
+CALL_FUNCTION	include/opCode.h	126;"	d
+CALL_FUNCTION_KW	include/opCode.h	138;"	d
+CALL_FUNCTION_VAR	include/opCode.h	137;"	d
+CALL_FUNCTION_VAR_KW	include/opCode.h	139;"	d
+CC	Makefile	/^CC=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-c$/;"	m
+COMPARE_OP	include/opCode.h	104;"	d
+CONTINUE_LOOP	include/opCode.h	115;"	d
+CUNIT_PATH	Makefile	/^CUNIT_PATH=\/home\/robert\/CUnit$/;"	m
+CheckType	src/object.cpp	/^bool CheckType(const char* caller, PyObject* object, PyTypeObject* type)$/;"	f
+DELETE_ATTR	include/opCode.h	94;"	d
+DELETE_FAST	include/opCode.h	122;"	d
+DELETE_GLOBAL	include/opCode.h	96;"	d
+DELETE_NAME	include/opCode.h	89;"	d
+DELETE_SLICE	include/opCode.h	46;"	d
+DELETE_SUBSCR	include/opCode.h	55;"	d
+DUP_TOP	include/opCode.h	15;"	d
+DUP_TOPX	include/opCode.h	97;"	d
+END_FINALLY	include/opCode.h	83;"	d
+EXEC_STMT	include/opCode.h	80;"	d
+EXTENDED_ARG	include/opCode.h	142;"	d
+FOR_ITER	include/opCode.h	91;"	d
+GET_ITER	include/opCode.h	63;"	d
+GetStringById	include/opCode.h	/^	const char* GetStringById(int id)$/;"	f	class:OpCodeSet
+HAS_ARG	include/opCode.h	144;"	d
+HAVE_ARGUMENT	include/opCode.h	86;"	d
+HashFun	include/object.h	/^typedef long (*HashFun)(PyObject* object);$/;"	t
+IMPORT_FROM	include/opCode.h	106;"	d
+IMPORT_NAME	include/opCode.h	105;"	d
+IMPORT_STAR	include/opCode.h	79;"	d
+INCS	Makefile	/^INCS=$(addprefix $(INC_PREFIX),$(INC_DIR))$/;"	m
+INC_DIR	Makefile	/^INC_DIR=.\/include $(CUNIT_PATH)\/include\/CUnit$/;"	m
+INC_PREFIX	Makefile	/^INC_PREFIX=-I$/;"	m
+INPLACE_ADD	include/opCode.h	49;"	d
+INPLACE_AND	include/opCode.h	72;"	d
+INPLACE_DIVIDE	include/opCode.h	52;"	d
+INPLACE_FLOOR_DIVIDE	include/opCode.h	37;"	d
+INPLACE_LSHIFT	include/opCode.h	70;"	d
+INPLACE_MODULO	include/opCode.h	53;"	d
+INPLACE_MULTIPLY	include/opCode.h	51;"	d
+INPLACE_OR	include/opCode.h	74;"	d
+INPLACE_POWER	include/opCode.h	62;"	d
+INPLACE_RSHIFT	include/opCode.h	71;"	d
+INPLACE_SUBTRACT	include/opCode.h	50;"	d
+INPLACE_TRUE_DIVIDE	include/opCode.h	38;"	d
+INPLACE_XOR	include/opCode.h	73;"	d
+IsTxtAsciiChar	include/PycParser.h	/^	bool IsTxtAsciiChar(char character)$/;"	f	class:PycParser
+JUMP_ABSOLUTE	include/opCode.h	111;"	d
+JUMP_FORWARD	include/opCode.h	108;"	d
+JUMP_IF_FALSE	include/opCode.h	109;"	d
+JUMP_IF_TRUE	include/opCode.h	110;"	d
+LIB_PREFIX	Makefile	/^LIB_PREFIX=-L$/;"	m
+LINK	Makefile	/^LINK=g++$/;"	m
+LIST_APPEND	include/opCode.h	26;"	d
+LOAD_ATTR	include/opCode.h	103;"	d
+LOAD_CLOSURE	include/opCode.h	131;"	d
+LOAD_CONST	include/opCode.h	98;"	d
+LOAD_DEREF	include/opCode.h	132;"	d
+LOAD_FAST	include/opCode.h	120;"	d
+LOAD_GLOBAL	include/opCode.h	113;"	d
+LOAD_LOCALS	include/opCode.h	77;"	d
+LOAD_NAME	include/opCode.h	99;"	d
+MAGIC	include/PycParser.h	43;"	d
+MAKE_CLOSURE	include/opCode.h	130;"	d
+MAKE_FUNCTION	include/opCode.h	127;"	d
+NEXT_ARG	include/PycParser.h	351;"	d
+NEXT_OP	include/PycParser.h	350;"	d
+NOP	include/opCode.h	17;"	d
+OBJS	Makefile	/^OBJS=$(patsubst $(SRC_PATH)\/%.cpp,$(BUILD_PATH)\/%.o,$(SRCS))$/;"	m
+OpCodeSet	include/opCode.h	/^	OpCodeSet()$/;"	f	class:OpCodeSet
+OpCodeSet	include/opCode.h	/^class OpCodeSet$/;"	c
+POP_BLOCK	include/opCode.h	82;"	d
+POP_TOP	include/opCode.h	12;"	d
+PRINT_EXPR	include/opCode.h	65;"	d
+PRINT_ITEM	include/opCode.h	66;"	d
+PRINT_ITEM_TO	include/opCode.h	68;"	d
+PRINT_NEWLINE	include/opCode.h	67;"	d
+PRINT_NEWLINE_TO	include/opCode.h	69;"	d
+Parse	include/PycParser.h	/^	PyObject* Parse(const char* fileName)$/;"	f	class:PycParser
+ParseOpCode	include/PycParser.h	/^	void ParseOpCode(PyObject* code, PyObject* lnotab, int firstLine)$/;"	f	class:PycParser
+PrintFun	include/object.h	/^typedef void (*PrintFun)(PyObject* object, FILE* target);$/;"	t
+PyCodeObject	include/codeObject.h	/^}PyCodeObject;$/;"	t	typeref:struct:tagPyCodeObject
+PyCode_Create	src/codeObject.cpp	/^PyObject* PyCode_Create(int argCount, int localCount, int stackSize, int flags,$/;"	f
+PyCode_Type	src/codeObject.cpp	/^PyTypeObject PyCode_Type = $/;"	v
+PyDictObject	include/dictObject.h	/^}PyDictObject;$/;"	t	typeref:struct:tagPyDictObject
+PyDict_Create	src/dictObject.cpp	/^PyObject* PyDict_Create()$/;"	f
+PyDict_GetItem	src/dictObject.cpp	/^PyObject* PyDict_GetItem(PyObject* target, PyObject* key)$/;"	f
+PyDict_SetItem	src/dictObject.cpp	/^int PyDict_SetItem(PyObject* target, PyObject* key, PyObject* value)$/;"	f
+PyDict_Type	src/dictObject.cpp	/^PyTypeObject PyDict_Type = $/;"	v
+PyIntObject	include/intObject.h	/^}PyIntObject;$/;"	t	typeref:struct:tagPyIntObject
+PyInt_Create	src/intObject.cpp	/^PyObject* PyInt_Create(int value)$/;"	f
+PyInt_GetRawValue	src/intObject.cpp	/^long PyInt_GetRawValue(PyObject* object)$/;"	f
+PyInt_Type	src/intObject.cpp	/^PyTypeObject PyInt_Type = $/;"	v
+PyNone	include/object.h	39;"	d
+PyNoneObject	src/object.cpp	/^PyObject PyNoneObject = $/;"	v
+PyNone_Type	src/object.cpp	/^static PyTypeObject PyNone_Type =$/;"	v	file:
+PyObject	include/object.h	/^}PyObject;$/;"	t	typeref:struct:tagPyObject
+PyObject_HEAD	include/codeObject.h	/^	PyObject_HEAD;$/;"	m	struct:tagPyCodeObject
+PyObject_HEAD	include/dictObject.h	/^	PyObject_HEAD;$/;"	m	struct:tagPyDictObject
+PyObject_HEAD	include/intObject.h	/^	PyObject_HEAD;$/;"	m	struct:tagPyIntObject
+PyObject_HEAD	include/object.h	/^	PyObject_HEAD;$/;"	m	struct:tagPyObject
+PyObject_HEAD	include/object.h	/^	PyObject_HEAD;$/;"	m	struct:tagPyTypeObject
+PyObject_HEAD	include/object.h	11;"	d
+PyObject_HEAD	include/stringObject.h	/^	PyObject_HEAD;$/;"	m	struct:tagPyStringObject
+PyObject_HEAD	include/tupleObject.h	/^	PyObject_HEAD;$/;"	m	struct:tagPyTupleObject
+PyObject_HEAD_INIT	include/object.h	15;"	d
+PyStringObject	include/stringObject.h	/^}PyStringObject;$/;"	t	typeref:struct:tagPyStringObject
+PyString_Create	src/stringObject.cpp	/^PyObject* PyString_Create(char* value, int length)$/;"	f
+PyString_GetLength	src/stringObject.cpp	/^int PyString_GetLength(PyObject* object)$/;"	f
+PyString_GetRawString	src/stringObject.cpp	/^const char* PyString_GetRawString(PyObject* object)$/;"	f
+PyString_InternInPlace	src/stringObject.cpp	/^void PyString_InternInPlace(PyObject** object)$/;"	f
+PyString_Type	src/stringObject.cpp	/^PyTypeObject PyString_Type = $/;"	v
+PyTupleObject	include/tupleObject.h	/^}PyTupleObject;$/;"	t	typeref:struct:tagPyTupleObject
+PyTuple_AddItem	src/tupleObject.cpp	/^void PyTuple_AddItem(PyObject* object, PyObject* item)$/;"	f
+PyTuple_Create	src/tupleObject.cpp	/^PyObject* PyTuple_Create(int size)$/;"	f
+PyTuple_GetItem	src/tupleObject.cpp	/^PyObject* PyTuple_GetItem(PyObject* object, int index)$/;"	f
+PyTuple_GetSize	src/tupleObject.cpp	/^int PyTuple_GetSize(PyObject* object)$/;"	f
+PyTuple_Type	src/tupleObject.cpp	/^PyTypeObject PyTuple_Type = $/;"	v
+PyTypeObject	include/object.h	/^}PyTypeObject;$/;"	t	typeref:struct:tagPyTypeObject
+PyType_Type	src/object.cpp	/^PyTypeObject PyType_Type = $/;"	v
+PycParser	include/PycParser.h	/^class PycParser$/;"	c
+RAISE_VARARGS	include/opCode.h	124;"	d
+RETURN_VALUE	include/opCode.h	78;"	d
+ROT_FOUR	include/opCode.h	16;"	d
+ROT_THREE	include/opCode.h	14;"	d
+ROT_TWO	include/opCode.h	13;"	d
+ReadByte	include/reader.h	/^	int ReadByte(FILE* file)$/;"	f	class:Reader
+ReadInt	include/reader.h	/^	int ReadInt(FILE* file)$/;"	f	class:Reader
+ReadMagicNumber	include/PycParser.h	/^	int ReadMagicNumber()$/;"	f	class:PycParser
+ReadModifiedTime	include/PycParser.h	/^	int ReadModifiedTime()$/;"	f	class:PycParser
+ReadObject	include/PycParser.h	/^	PyObject* ReadObject()$/;"	f	class:PycParser
+ReadString	include/reader.h	/^	void ReadString(char* buffer, int length, FILE* file)$/;"	f	class:Reader
+Reader	include/reader.h	/^class Reader$/;"	c
+SETUP_EXCEPT	include/opCode.h	117;"	d
+SETUP_FINALLY	include/opCode.h	118;"	d
+SETUP_LOOP	include/opCode.h	116;"	d
+SLICE	include/opCode.h	40;"	d
+SRCS	Makefile	/^SRCS=$(wildcard $(SRC_PATH)\/*.cpp)$/;"	m
+SRC_PATH	Makefile	/^SRC_PATH=.\/src$/;"	m
+STOP_CODE	include/opCode.h	11;"	d
+STORE_ATTR	include/opCode.h	93;"	d
+STORE_DEREF	include/opCode.h	133;"	d
+STORE_FAST	include/opCode.h	121;"	d
+STORE_GLOBAL	include/opCode.h	95;"	d
+STORE_NAME	include/opCode.h	88;"	d
+STORE_SLICE	include/opCode.h	43;"	d
+STORE_SUBSCR	include/opCode.h	54;"	d
+TARGET	Makefile	/^TARGET=pyc_parser$/;"	m
+TEST_INCS	Makefile	/^TEST_INCS=$(addprefix $(INC_PREFIX),$(TEST_INC_DIR))$/;"	m
+TEST_INC_DIR	Makefile	/^TEST_INC_DIR=$(INC_DIR) $(TEST_PATH) $(CUNIT_PATH)\/include\/CUnit$/;"	m
+TEST_LIBS	Makefile	/^TEST_LIBS=-lcunit$/;"	m
+TEST_LIB_DIR	Makefile	/^TEST_LIB_DIR=$(CUNIT_PATH)\/lib$/;"	m
+TEST_LIB_PATHS	Makefile	/^TEST_LIB_PATHS=$(addprefix $(LIB_PREFIX),$(TEST_LIB_DIR))$/;"	m
+TEST_OBJS	Makefile	/^TEST_OBJS=$(patsubst $(TEST_PATH)\/%.cpp,$(BUILD_PATH)\/%.o,$(TEST_SRCS))$/;"	m
+TEST_PATH	Makefile	/^TEST_PATH=.\/test$/;"	m
+TEST_SRCS	Makefile	/^TEST_SRCS=$(wildcard $(TEST_PATH)\/*.cpp)$/;"	m
+TEST_TARGET	Makefile	/^TEST_TARGET=test_$(TARGET)$/;"	m
+TYPE_BINARY_COMPLEX	include/PycParser.h	30;"	d
+TYPE_BINARY_FLOAT	include/PycParser.h	28;"	d
+TYPE_CODE	include/PycParser.h	38;"	d
+TYPE_COMPLEX	include/PycParser.h	29;"	d
+TYPE_DICT	include/PycParser.h	37;"	d
+TYPE_ELLIPSIS	include/PycParser.h	24;"	d
+TYPE_FALSE	include/PycParser.h	21;"	d
+TYPE_FLOAT	include/PycParser.h	27;"	d
+TYPE_FROZENSET	include/PycParser.h	41;"	d
+TYPE_INT	include/PycParser.h	25;"	d
+TYPE_INT64	include/PycParser.h	26;"	d
+TYPE_INTERNED	include/PycParser.h	33;"	d
+TYPE_LIST	include/PycParser.h	36;"	d
+TYPE_LONG	include/PycParser.h	31;"	d
+TYPE_NONE	include/PycParser.h	20;"	d
+TYPE_NULL	include/PycParser.h	19;"	d
+TYPE_SET	include/PycParser.h	40;"	d
+TYPE_STOPITER	include/PycParser.h	23;"	d
+TYPE_STRING	include/PycParser.h	32;"	d
+TYPE_STRINGREF	include/PycParser.h	34;"	d
+TYPE_TRUE	include/PycParser.h	22;"	d
+TYPE_TUPLE	include/PycParser.h	35;"	d
+TYPE_UNICODE	include/PycParser.h	39;"	d
+TYPE_UNKNOWN	include/PycParser.h	18;"	d
+UNARY_CONVERT	include/opCode.h	22;"	d
+UNARY_INVERT	include/opCode.h	24;"	d
+UNARY_NEGATIVE	include/opCode.h	20;"	d
+UNARY_NOT	include/opCode.h	21;"	d
+UNARY_POSITIVE	include/opCode.h	19;"	d
+UNPACK_SEQUENCE	include/opCode.h	90;"	d
+WITH_CLEANUP	include/opCode.h	76;"	d
+Write	include/writer.h	/^	void Write(T value, bool newLine = true)$/;"	f	class:Writer
+Writer	include/writer.h	/^	Writer()$/;"	f	class:Writer
+Writer	include/writer.h	/^class Writer$/;"	c
+YIELD_VALUE	include/opCode.h	81;"	d
+__SPY_CODEOBJECT_H_	include/codeObject.h	2;"	d
+__SPY_DICTOBJECT_H_	include/dictObject.h	2;"	d
+__SPY_INTOBJECT_H_	include/intObject.h	2;"	d
+__SPY_OBJECT_H_	include/object.h	2;"	d
+__SPY_OPCODE_H_	include/opCode.h	2;"	d
+__SPY_PYCPARSER_H_	include/PycParser.h	2;"	d
+__SPY_READER_H	include/reader.h	2;"	d
+__SPY_STRINGOBJECT_H_	include/stringObject.h	2;"	d
+__SPY_TUPLEOBJECT_H_	include/tupleObject.h	2;"	d
+__SPY_WRITER_H_	include/writer.h	2;"	d
+add	include/object.h	/^	AddFun add;$/;"	m	struct:tagPyTypeObject
+argCount	include/codeObject.h	/^	int argCount;	\/* #arguments, except *args *\/$/;"	m	struct:tagPyCodeObject
+c	temp/a.py	/^c='hello'$/;"	v
+cellVars	include/codeObject.h	/^	PyObject* cellVars;      \/* tuple of strings (cell variable names) *\/$/;"	m	struct:tagPyCodeObject
+code	include/codeObject.h	/^	PyObject* code;		\/* instruction opcodes *\/$/;"	m	struct:tagPyCodeObject
+code_print	src/codeObject.cpp	/^static void code_print(PyObject* object, FILE* target=stdout)$/;"	f	file:
+consts	include/codeObject.h	/^	PyObject* consts;	\/* list (constants used) *\/$/;"	m	struct:tagPyCodeObject
+dict	include/dictObject.h	/^	map<PyObject*, PyObject*> dict;$/;"	m	struct:tagPyDictObject
+dict_print	src/dictObject.cpp	/^static void dict_print(PyObject* object, FILE* target=stdout)$/;"	f	file:
+fileName	include/codeObject.h	/^	PyObject* fileName;	\/* string (where it was loaded from) *\/$/;"	m	struct:tagPyCodeObject
+firstLineNo	include/codeObject.h	/^	int firstLineNo;		\/* first source line number *\/$/;"	m	struct:tagPyCodeObject
+flags	include/codeObject.h	/^	int flags;		\/* CO_..., see below *\/$/;"	m	struct:tagPyCodeObject
+freeVars	include/codeObject.h	/^	PyObject* freeVars;	\/* tuple of strings (free variable names) *\/$/;"	m	struct:tagPyCodeObject
+g_internDict	src/stringObject.cpp	/^PyDictObject* g_internDict = NULL;$/;"	v
+generate_pyc	bin/pyc_generator.py	/^def generate_pyc(name):$/;"	f
+generate_pyc	bin/to_xml.py	/^def generate_pyc(name):$/;"	f
+hash	include/object.h	/^	HashFun hash;$/;"	m	struct:tagPyTypeObject
+hashValue	include/stringObject.h	/^	long hashValue;$/;"	m	struct:tagPyStringObject
+int_add	src/intObject.cpp	/^static PyObject* int_add(PyObject* left, PyObject* right)$/;"	f	file:
+int_hash	src/intObject.cpp	/^static long int_hash(PyObject* object)$/;"	f	file:
+int_print	src/intObject.cpp	/^static void int_print(PyObject* object, FILE* target=stdout)$/;"	f	file:
+length	include/stringObject.h	/^	int length;$/;"	m	struct:tagPyStringObject
+lnotab	include/codeObject.h	/^	PyObject* lnotab;	\/* string (encoding addr<->lineno mapping) *\/$/;"	m	struct:tagPyCodeObject
+localCount	include/codeObject.h	/^	int localCount;		\/* #local variables *\/$/;"	m	struct:tagPyCodeObject
+m_File	include/PycParser.h	/^	FILE *m_File;$/;"	m	class:PycParser
+m_OpCodeSet	include/PycParser.h	/^	OpCodeSet m_OpCodeSet;$/;"	m	class:PycParser
+m_OutFile	include/writer.h	/^	ofstream m_OutFile;$/;"	m	class:Writer
+m_Reader	include/PycParser.h	/^	Reader m_Reader;$/;"	m	class:PycParser
+m_StrIndexInList	include/PycParser.h	/^	int m_StrIndexInList;$/;"	m	class:PycParser
+m_Writer	include/PycParser.h	/^	Writer m_Writer;$/;"	m	class:PycParser
+m_mapId2Str	include/opCode.h	/^	map<int, string> m_mapId2Str;$/;"	m	class:OpCodeSet
+m_vecInternedString	include/PycParser.h	/^	vector<PyObject*> m_vecInternedString; \/* dict on marshal, list on unmarshal *\/$/;"	m	class:PycParser
+main	src/PycParser.cpp	/^int main(int argc, char* argv[])$/;"	f
+name	include/codeObject.h	/^	PyObject* name;		\/* string (name, for reference) *\/$/;"	m	struct:tagPyCodeObject
+name	include/object.h	/^	char* name;$/;"	m	struct:tagPyTypeObject
+names	include/codeObject.h	/^	PyObject* names;		\/* list of strings (names used) *\/$/;"	m	struct:tagPyCodeObject
+nonePrint	src/object.cpp	/^static void nonePrint(PyObject* object, FILE* target=stdout)$/;"	f	file:
+open	include/writer.h	/^	void open(const char* pycFileName) {$/;"	f	class:Writer
+print	include/object.h	/^	PrintFun print;$/;"	m	struct:tagPyTypeObject
+size	include/tupleObject.h	/^	int size;$/;"	m	struct:tagPyTupleObject
+stackSize	include/codeObject.h	/^	int stackSize;	\/* #entries needed for evaluation stack *\/$/;"	m	struct:tagPyCodeObject
+string_hash	src/stringObject.cpp	/^static long string_hash(PyObject* object)$/;"	f	file:
+string_print	src/stringObject.cpp	/^static void string_print(PyObject* object, FILE* target=stdout)$/;"	f	file:
+tagPyCodeObject	include/codeObject.h	/^typedef struct tagPyCodeObject$/;"	s
+tagPyDictObject	include/dictObject.h	/^typedef struct tagPyDictObject$/;"	s
+tagPyIntObject	include/intObject.h	/^typedef struct tagPyIntObject$/;"	s
+tagPyObject	include/object.h	/^typedef struct tagPyObject$/;"	s
+tagPyStringObject	include/stringObject.h	/^typedef struct tagPyStringObject$/;"	s
+tagPyTupleObject	include/tupleObject.h	/^typedef struct tagPyTupleObject$/;"	s
+tagPyTypeObject	include/object.h	/^typedef struct tagPyTypeObject$/;"	s
+temp	include/PycParser.h	/^	char temp[1024];$/;"	m	class:PycParser
+tuple	include/tupleObject.h	/^	vector<PyObject*> tuple;$/;"	m	struct:tagPyTupleObject
+tuple_print	src/tupleObject.cpp	/^static void tuple_print(PyObject* object, FILE* target=stdout)$/;"	f	file:
+value	include/intObject.h	/^	int value;$/;"	m	struct:tagPyIntObject
+value	include/stringObject.h	/^	char value[1024];$/;"	m	struct:tagPyStringObject
+varNames	include/codeObject.h	/^	PyObject* varNames;	\/* tuple of strings (local variable names) *\/$/;"	m	struct:tagPyCodeObject
+~Writer	include/writer.h	/^	~Writer()$/;"	f	class:Writer

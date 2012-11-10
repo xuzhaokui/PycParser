@@ -1,0 +1,97 @@
+<PycFile>
+<codeObject>
+<argCount value="0"/>
+<localCount value="0"/>
+<stackSize value="1"/>
+<flags value="64"/>
+<code>
+<str length="19" value="binary"/>
+</code>
+<consts>
+<codeObject>
+<argCount value="0"/>
+<localCount value="3"/>
+<stackSize value="3"/>
+<flags value="67"/>
+<code>
+<str length="44" value="binary"/>
+</code>
+<consts>
+<NoneObject/>
+<int value="2"/>
+<int value="1"/>
+<internStr index="0" length="48" value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+<internStr index="1" length="42" value="bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"/>
+</consts>
+<names>
+</names>
+<varNames>
+<internStr index="2" length="1" value="n"/>
+<internStr index="3" length="1" value="d"/>
+<internStr index="4" length="1" value="l"/>
+</varNames>
+<freeVars>
+</freeVars>
+<cellVars>
+</cellVars>
+<fileName>
+<str length="46" value="/home/coaku/work/code/GIT/pyc_parser/temp/a.py"/>
+</fileName>
+<name>
+<internStr index="5" length="1" value="A"/>
+</name>
+<firstLineNo>
+</firstLineNo>
+<lnotab>
+<str length="8" value="binary"/>
+<op code="100" codeName="LOAD_CONST" arg="1" line="2"/>
+<op code="125" codeName="STORE_FAST" arg="0" line="2"/>
+<op code="105" codeName="BUILD_MAP" arg="1" line="3"/>
+<op code="100" codeName="LOAD_CONST" arg="1" line="3"/>
+<op code="100" codeName="LOAD_CONST" arg="2" line="3"/>
+<op code="54" codeName="STORE_MAP" arg="none" line="3"/>
+<op code="125" codeName="STORE_FAST" arg="1" line="3"/>
+<op code="100" codeName="LOAD_CONST" arg="3" line="4"/>
+<op code="100" codeName="LOAD_CONST" arg="4" line="4"/>
+<op code="103" codeName="BUILD_LIST" arg="2" line="4"/>
+<op code="125" codeName="STORE_FAST" arg="2" line="4"/>
+<op code="124" codeName="LOAD_FAST" arg="0" line="5"/>
+<op code="124" codeName="LOAD_FAST" arg="1" line="5"/>
+<op code="124" codeName="LOAD_FAST" arg="2" line="5"/>
+<op code="102" codeName="BUILD_TUPLE" arg="3" line="5"/>
+<op code="83" codeName="RETURN_VALUE" arg="none" line="5"/>
+</lnotab>
+</codeObject>
+<internStr index="6" length="5" value="hello"/>
+<NoneObject/>
+</consts>
+<names>
+<strRef index="5" value="A"/>
+<internStr index="7" length="1" value="c"/>
+</names>
+<varNames>
+</varNames>
+<freeVars>
+</freeVars>
+<cellVars>
+</cellVars>
+<fileName>
+<str length="46" value="/home/coaku/work/code/GIT/pyc_parser/temp/a.py"/>
+</fileName>
+<name>
+<internStr index="8" length="8" value="[module]"/>
+</name>
+<firstLineNo>
+</firstLineNo>
+<lnotab>
+<str length="2" value="binary"/>
+<op code="100" codeName="LOAD_CONST" arg="0" line="1"/>
+<op code="132" codeName="MAKE_FUNCTION" arg="0" line="1"/>
+<op code="90" codeName="HAVE_ARGUMENT" arg="0" line="1"/>
+<op code="100" codeName="LOAD_CONST" arg="1" line="7"/>
+<op code="90" codeName="HAVE_ARGUMENT" arg="1" line="7"/>
+<op code="100" codeName="LOAD_CONST" arg="2" line="7"/>
+<op code="83" codeName="RETURN_VALUE" arg="none" line="7"/>
+</lnotab>
+</codeObject>
+</PycFile>
